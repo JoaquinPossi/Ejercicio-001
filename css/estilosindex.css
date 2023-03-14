@@ -8,3 +8,15 @@
 .Montserrat{
 	font-family: 'Montserrat', sans-serif;
 }
+footer{
+    background: #464697;
+    color: white;
+    position: fixed;
+    padding: 4vw;
+    bottom: 0;
+    /*
+    margin-top: 93%;*/
+}
+body{
+    /*height: 100vw;*/
+}
