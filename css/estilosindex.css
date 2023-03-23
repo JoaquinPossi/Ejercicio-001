@@ -10,13 +10,18 @@
 }
 footer{
     color: white;
-    position: fixed;
+    position: static;
     padding: 4vw;
     bottom: 0;
 }
 body{
 
 }
+/*---colordeletras---*/
+.fontwheat{
+    color: wheat;
+}
+
 /*--------colores-----------*/
 .fondo{
     /*https://www.grabient.com/  */
@@ -24,7 +29,7 @@ body{
 
 }
 .violeta{
-    background: #835daf;
+    background: #d53f3f;
 }
 .rojo{
     background-color: #e8302a;
@@ -48,18 +53,24 @@ body{
 .h100{
     height: 1000%;
 }
+.h10{
+    height: 10%;
+}
 .h20{
     height: 20%;
 }
 .h50px{
     height: 50px;
 }
-.h300px{
-    height: 300px;
+.h400px{
+    height: 400px;
 }
 /*--------ordenamiento-----------*/
 .dflex{
     display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
 }
 .centeralign{
     align-items: center;
@@ -81,10 +92,20 @@ body{
     border-radius: 8%;
 }
 .caja__imagen{
-    background-image: url(https://mattprofe.com.ar/alumno/3856/Pro__Folder/app-links/IMG/My-Link3.png);
-    height: 80%;
+    height: 70%;
     background-color: #501a18;
     background-position: center;
     background-size: cover;
 }
-    
+.caja__texto{
+    margin: 1%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.caja__link{
+    border: solid 10px #3a1d1d;
+    background: #3a1d1d;
+    border-radius: 40px;
+    text-decoration: none;
+    color: wheat;
+}
