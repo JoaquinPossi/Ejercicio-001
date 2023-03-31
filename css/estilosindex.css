@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
     font-family: 'Montserrat', sans-serif;
 }
 .Montserrat{
@@ -113,4 +114,19 @@ body{
     border-radius: 40px;
     text-decoration: none;
     color: wheat;
+}
+
+
+
+/*IMWALKINGON SHUSHINE WHOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+@media screen and (max-width: 992px){
+    .h400px{
+        height: 500px;
+    }
+    .w25{
+        width: 85%;
+    }
+    .wrapper{
+        gap: 20px;
+    }
 }
