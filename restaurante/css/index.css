@@ -74,7 +74,7 @@
 .portada{
     position: relative;
     height: 350px;
-    background-color: blueviolet;
+    background-color: #342e2e;
     background-image: url(../img/rest.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,7 +83,9 @@
     padding: 7%;
     box-shadow: inset 0 0 304px black;
 }
-
+.producto{
+    background-image: url(../img/pro.png);!important
+}
 .welcome{
     position: absolute;
     bottom: 70px;
@@ -158,7 +160,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     gap: 10px;
     overflow-x: scroll;
@@ -272,6 +274,9 @@
 .padding20px{
     padding: 20px;
 }
+.margin20px{
+    margin: 20px;
+}
 footer{
     position:fixed;
     bottom: 0;
@@ -373,3 +378,92 @@ main{
 .marginboton{
     margin-bottom: 50px;
 }
+.grey{
+    color: grey;
+}
+.rate3{
+    height: 80px;
+    width: 30%;
+    background-color: rgb(255 74 74 / 92%);
+    position: absolute;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 35pt;
+    line-height: 50px;
+    right: 30px;
+    bottom: 115px;
+    border-end-end-radius: 12px;
+    border-start-start-radius: 12px;
+}
+.rate4{
+    height: 80px;
+    width: 45%;
+    background-color: rgb(255 74 74 / 92%);
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 20pt;
+    line-height: 50px;
+    border-radius: 5px;
+    margin: 0px 1px;
+}
+.w70po{
+    width: 70%;
+}
+.h100px{
+    height: 100px;
+}
+.search2 {
+    height: 60px;
+    width: 86%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 20px 15px -10px rgba(0, 0, 0, 0.158);
+    border-radius:10px;
+    overflow: hidden;
+}
+.search .icon__search{
+    height: 100%;
+    width: 60px;
+    background-color: rgb(255 74 74 / 92%);
+    text-align: center;
+    line-height: 60px;
+    font-size: 26pt!important;
+}
+
+.search2 input[type="search"]{
+    height: 100%;
+    width: calc(100% - 120px);
+    border: 0;
+    font-size: 12pt;
+    padding: 14pt;
+    color: rgb(0, 0, 0);
+}
+    .search2 input[type="search"]:focus{
+        outline: 0;
+        font-size: 14px;
+    }
+
+    .search2 input[type="search"]::placeholder{
+        border: 0;
+        color: grey;
+        
+    }
+
+    .search2 input[type="submit"]{
+        height: 60px;
+        width: 60px;
+        background-color: transparent;
+        border: 0;
+        font-size: 26pt!important;
+    }
+    
+    .search2 input[type="submit"]:active{
+        box-shadow: inset 0 0 15px rgba(0,0,0,0.164);
+        font-size: 22pt !important;
+    }
