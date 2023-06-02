@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Tilt+Warp&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*transition: all 0.3s ease-in-out;*/
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+	text-decoration: none;
+    color: lightgrey;
+}
+::-webkit-scrollbar {
+    height: 0; /* scroll horizontal */
+    width: 0; /* scroll vertical */
+}
+.Montserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+.w100por{
+	width: 100%;
+}
+.w70por{
+	width: 70%;
+}
+.w30por{
+	width: 30%;
+}
+.h200px{
+	height: 200px;
+}
+.dflex{
+	display: flex;
+}
+.flexcolumn{
+	flex-direction: column;
+}
+.gap15px{
+	gap: 15px;
+}
+.header__index{
+	justify-content: space-between;
+}
+.padding10por{
+	padding: 10%;
+}
+.color__letras{
+	color: #5e6dd9;
+}
+.font20pt{
+	font-size: 20pt;
+}
+.font28pt{
+	font-size: 28pt;
+}
+.fontbolder{
+	font-weight: bolder;
+}
+.aligncenter{
+	align-items: center;
+}
+.w120px{
+	width: 120px;
+
+}
+.h120px{
+    height: 120px;
+
+}
+.borderradius100por{
+    border-radius: 100%;
+
+}
+.objectfitcover{
+    object-fit: cover;
+
+}
+.justifycenter{
+	justify-content: center;
+}
+.w90por{
+	width: 90%
+}
+.h60px{
+	height: 60px;
+}
+.bordernone{
+	border: none;
+}
+.color__fondo__input{
+	background: #f0f0fa;
+}
+.padding5por{
+	padding: 5%;
+}
+.posab{
+	position: absolute;
+}
+.right10por{
+	right: 10%;
+}
+.top22por{
+	top: 22%;
+}
+.span__etiqueta{
+	color: #6f8f99;
+    border: solid 1px #6f8f99;
+    border-radius: 20px;
+    padding: 2%;
+}
+.div__etiquetas__nav{
+	height: 95px;
+    gap: 4%;
+    overflow: scroll
+}
+.header__wrapper{
+	padding: 3%;
+	justify-content: space-between;
+}
+.card{
+	margin: 3% 0;
+    width: 40%;
+    border-end-end-radius: 25px;
+    border-end-start-radius: 25px;
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+    background: white;
+}
+.card__image{
+	width: 100%;
+    height: 200px;
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+}
+.h4{
+	padding: 2% 10%;
+}
+.p{
+	padding: 0% 0% 10% 10%;
+    font-size: 15pt;
+    color: grey;
+}
+.body__wrapper{
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+    background-image: linear-gradient(13deg, #8EC5FC 0%, #E0C3FC 22%, #aad7ff 40%, #ffffff 61%, #ffffff 79%, #ffffff 100%);
+}
+.footer{
+	position: relative;
+    bottom: 0;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 70px;
+}
+.icon__footer{
+	font-size: 40pt;!important
+    color: #ddd8f8;
+}
+.seleccionado{
+	color: #ff9898;
+}
+.font40pt{
+	font-size: 40pt;!important
+}
